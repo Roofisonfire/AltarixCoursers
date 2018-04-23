@@ -1,0 +1,23 @@
+.base{
+	display: flex;
+	flex-direction: column;
+	border: solid;
+	width: 400px;
+}
+
+.action{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin:10px; 
+}
+
+.list{
+    border: groove;
+    margin:20px;
+}
+
+.act{
+	width: 300px;
+}
