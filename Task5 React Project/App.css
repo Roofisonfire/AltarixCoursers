@@ -58,6 +58,7 @@ body{
 	position:relative;
 }
 .App-block3{
+    display: block;
 	display:flex;
 	position:fixed;
 	left:0;
