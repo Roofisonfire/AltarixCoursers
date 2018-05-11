@@ -4,13 +4,26 @@ import logo from './logo.svg';
 class MainContent extends Component {
 render() {
     return (
-      <div className="App-content-block">
+    <div>   
+    {this.props.content.map(el=>(
+      <div className="App-content-block" key={el.id}>
+        
         <img src={logo}  className="App-logo" alt="logo" />
+        
         <div className="App-content-block-text">
-          Тут будет текст пользователя ыаывааыаыаыыв
+        <h1>{el.name}</h1>
+        <p>{el.text}</p>
         </div>
+        
       </div>
-    );
-  }
+    
+      
+    )   
+    
+)
+}
+</div>
+);
+}
 }
 export default MainContent 
